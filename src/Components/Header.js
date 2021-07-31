@@ -9,12 +9,14 @@ const SHeader = styled.header`
     left: 0;
     width: 100%;
     height: 5vh;
-    background-color: black;
+    background-color: inherit;
+    box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
 `;
 
 const List = styled.ul`
     display:flex;
     list-style:none;
+    margin-left:10%;
     height: 100%;
     width: 25%;
     justify-content: space-around;
@@ -24,7 +26,7 @@ const List = styled.ul`
 const Item = styled.li`
     width: 100%;
     height: 100%;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight:500;
     display: flex;
     justify-content: center;

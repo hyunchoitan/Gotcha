@@ -18,8 +18,25 @@ This project is created with
 ## The Project Status
 
 
-- [ ] Home Route
-- [ ] TV Show Route
-- [ ] Search Route
-- [ ] Detail Route 
+- [x] Home Route
+- [x] TV Show Route
+- [x] Search Route
+- [x] Detail Route 
  
+### Screens
+
+- [ ] Home
+- [ ] TV Shows
+- [ ] Search
+- [ ] Details
+
+### API Verbs
+
+- [x] Now Playing(Movie)
+- [x] Upcoming(Movie)
+- [x] Popular(Tv,Movie)
+- [x] Top Rated(Tv)
+- [x] Airing Today(Tv)
+- [x] TV show Detail
+- [x] Movie Detail
+- [x] Search(Tv, Movie)
