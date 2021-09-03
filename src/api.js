@@ -13,24 +13,24 @@ export const moviesApi = {
     nowPlaying: () => api.get("movie/now_playing"),
     upcoming: () => api.get("movie/upcoming"),
     popular: () => api.get("movie/popular"),
-    movieDetail: (id) => api.get(`movie/${id}`, params:{
+    movieDetail: (id) => api.get(`movie/${id}`, {params:{
         append_to_response: "videos"
-    }),
-    search: (term) => api.get("search/movie", params:{
+    }}),
+    search: (term) => api.get("search/movie", {params:{
         query: encodeURI(term)
-    })
+    }})
 }
 
 export const tvApi = {
     popular : () => api.get("tv/popular"),
     topRated: () => api.get("tv/top_rated"),
     airingToday: () => api.get("tv/airing_today"),
-    tvDetail: (id) => api.get(`tv/${id}`, params:{
+    tvDetail: (id) => api.get(`tv/${id}`, {params:{
         append_to_response: "videos"
-    }),
-    search: (term) => api.get("search/tv", params: {
+    }}),
+    search: (term) => api.get("search/tv", {params: {
         query: encodeURI(term)
-    })
+    }})
 }
 
 
