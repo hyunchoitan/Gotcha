@@ -29,7 +29,7 @@ class Search extends React.Component {
                 data : { results: tvResults}
             } = await tvApi.search(searchTerm)
             const {
-                data : { restuls: movieResults}
+                data : { results: movieResults}
             } = await moviesApi.search(searchTerm)
 
             this.setState({
