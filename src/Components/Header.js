@@ -8,7 +8,7 @@ const SHeader = styled.header`
     top: 0;
     left: 0;
     width: 100%;
-    height: 5vh;
+    height: 10%;
     background-color: inherit;
     box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
 `;
