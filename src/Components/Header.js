@@ -43,10 +43,10 @@ const Header = ({location:{pathname}}) => (
         <SHeader>
             <List>
                 <Item current={ pathname === "/"}>
-                    <SLink to="/">Home</SLink>
+                    <SLink to="/">Films</SLink>
                 </Item>
                 <Item current={ pathname === "/tv"}>
-                    <SLink to="/tv">TV</SLink>
+                    <SLink to="/tv">Series</SLink>
                 </Item>
                 <Item current={ pathname === "/search"}>
                     <SLink to="/search">Search</SLink>
